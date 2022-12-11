@@ -40,12 +40,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "certibox.forms.dculus/test/certibox.forms.dculus.Tests"
+    cd "cloudformation-demo/test/cloudformation-demo.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "certibox.forms.dculus/src/certibox.forms.dculus"
+    cd "cloudformation-demo/src/cloudformation-demo"
     dotnet lambda deploy-function
 ```
