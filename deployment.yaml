@@ -60,7 +60,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: !Sub youtube-demo-cloudformation-${Environment}
-      Handler: cloudformation-demo::cloudformation_demo.Function::FunctionHandler
+      Handler: certibox.forms.dculus::certibox.forms.dculus.Function::FunctionHandler
       MemorySize: 128
       Role: !GetAtt lambdaExecutionRole.Arn
       Runtime: dotnet6

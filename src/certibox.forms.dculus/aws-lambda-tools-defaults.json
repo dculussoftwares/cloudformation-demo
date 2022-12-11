@@ -11,5 +11,5 @@
   "function-runtime": "dotnet6",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-handler": "cloudformation-demo::cloudformation_demo.Function::FunctionHandler"
+  "function-handler": "certibox.forms.dculus::certibox.forms.dculus.Function::FunctionHandler"
 }
